@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>AI Summarizer</h1>
+        <button id="summarize-btn"> Summarize Page</button>
+        <div id="loading" class="hidden"> Generating Summary</div>
+        <div id="summary-box" class="hidden">
+            <h3>summary</h3>
+            <p id="summary-text"></p>
+            <button id="export-btn">Export to Notion</button>
+        </div>
+        <div id="status"></div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
